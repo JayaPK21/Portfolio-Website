@@ -15,3 +15,20 @@
     border-top-right-radius: 0;
     border-bottom-left-radius: 0.5rem;
 }
+
+/* Styling the footer section */
+footer {
+    background-color: darkcyan;
+    padding: 20px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Displays a shadow for all the buttons in footer upon hover */
+.footerButton:hover {
+    
+    box-shadow: 5px 5px 10px rgba(17, 36, 36, 0.7);
+}
