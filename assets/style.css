@@ -16,6 +16,21 @@
     border-bottom-left-radius: 0.5rem;
 }
 
+#hero-banner {
+    background: url(images/vecteezy_abstract-purple-fluid-wave-background_6868933.jpg);
+}
+
+#contentHeroBanner {
+    background-color: transparent;
+    color: white;
+}
+
+#attributionFooter {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
 /* Styling the footer section */
 footer {
     background-color: darkcyan;
