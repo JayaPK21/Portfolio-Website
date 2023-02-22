@@ -22,10 +22,10 @@ $('#nav-contact-tab').click(function() {
     });
 });
 
-$('#work2').hover(function() {
-    $('#coverWork2').addClass('d-none');
-    $('#infoWork2').removeClass('d-none');
+$('.work').hover(function() {
+    $(this).children('.cover').addClass('d-none');
+    $(this).children('.info').removeClass('d-none');
 }, function() {
-    $('#coverWork2').removeClass('d-none');
-    $('#infoWork2').addClass('d-none');
+    $(this).children('.cover').removeClass('d-none');
+    $(this).children('.info').addClass('d-none');
 });
