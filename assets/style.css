@@ -33,6 +33,20 @@
     color: white;
 }
 
+.pictureContainer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#profilePicture {
+    padding: 5px;
+    border-radius: 30px;
+    width: 15em;
+    height: 20em;
+}
+
 #attributionFooter {
     position: absolute;
     bottom: 10px;
