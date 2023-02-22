@@ -33,12 +33,15 @@
 }
 
 /* Styling the footer section */
-footer {
+#mainFooter {
     background-color: darkcyan;
     padding: 20px;
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
 }
 
-footer .container {
+#mainFooter .container {
     display: flex;
     justify-content: space-evenly;
 }
