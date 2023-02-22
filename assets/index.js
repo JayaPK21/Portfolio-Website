@@ -20,4 +20,12 @@ $('#nav-contact-tab').click(function() {
         $('#attributionFooter').removeClass('d-none');
 
     });
-})
+});
+
+$('#work2').hover(function() {
+    $('#coverWork2').addClass('d-none');
+    $('#infoWork2').removeClass('d-none');
+}, function() {
+    $('#coverWork2').removeClass('d-none');
+    $('#infoWork2').addClass('d-none');
+});
