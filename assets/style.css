@@ -44,6 +44,7 @@ body {
     font-family: initial;
     background-color: transparent;
     color: lightcyan;
+    cursor: pointer;
 }
 .display-4 {
     text-shadow: 2px 2px 2px darkcyan;
