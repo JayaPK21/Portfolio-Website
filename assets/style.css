@@ -41,8 +41,20 @@ body {
 }
 
 #contentHeroBanner {
+    font-family: initial;
     background-color: transparent;
-    color: white;
+    color: lightcyan;
+}
+.display-4 {
+    text-shadow: 2px 2px 2px darkcyan;
+}
+
+#userInfo {
+    font-size: 1.5em;
+    font-style: oblique;
+    color: blanchedalmond;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
 
 .pictureContainer {
@@ -63,6 +75,7 @@ body {
     position: absolute;
     bottom: 10px;
     right: 10px;
+    font-size: xx-small;
 }
 
 main{
