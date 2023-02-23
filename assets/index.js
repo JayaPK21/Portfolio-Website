@@ -9,7 +9,7 @@ $('#hero-banner').click(function() {
     });
 });
 
-$('#nav-contact-tab').click(function() {
+$('#nav-home-tab').click(function() {
     $('#mainFooter').addClass('d-none');
     $('#hero-banner').slideDown("slow", function() {
 
@@ -18,6 +18,13 @@ $('#nav-contact-tab').click(function() {
         
         $('#hero-banner').addClass('d-flex');
         $('#attributionFooter').removeClass('d-none');
+
+        $('#nav-home-tab').attr('aria-selected', 'false');
+        $('#nav-home-tab').removeClass('active');
+        $('#nav-home').removeClass('show active');
+        $('#nav-work-tab').attr('aria-selected', 'true');
+        $('#nav-work-tab').addClass('active');
+        $('#nav-work').addClass('show active');
 
     });
 });
