@@ -66,6 +66,7 @@ body {
     align-items: center;
 
 }
+
 #profilePicture {
     padding: 5px;
     border-radius: 30px;
@@ -85,9 +86,24 @@ main{
 }
 
 /* Styling the Work Section */
+#coverWork1 {
+    background-image: url(images/pilot-application-website.png);
+}
 
 #coverWork2 {
     background-image: url(images/css-snippet-project.png);
+}
+
+#coverWork3 {
+    background-image: url(images/weather-dashboard-website.png);
+}
+
+#coverWork4 {
+    background-image: url(images/quiz-application-website.png);
+}
+
+#coverWork5 {
+    background-image: url(images/scheduler_application.png);
 }
 
 .card-title {
@@ -95,11 +111,18 @@ main{
     padding: 10px;
     border-radius: 10px;
     text-align: center;
+    margin: 0.75rem 0;
 }
 
 .work {
     border: 3px solid var(--pageThemeColor);
     /* box-shadow: inset 0 0 0 300px var(--themeColor40percent); */
+}
+
+.customWebImage {
+    width: 100%;
+    height: 10em;
+    border-radius: 25px;
 }
 
 .customBtn {
