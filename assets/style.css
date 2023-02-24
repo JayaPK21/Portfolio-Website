@@ -168,6 +168,17 @@ main{
   }
 /* End of Styling Work Section */
 
+pre {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    font-family: cursive;
+    font-size: 1em;
+}
+
 /* Styling the footer section */
 #mainFooter {
     background-color: var(--footerThemeColor);
