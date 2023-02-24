@@ -31,6 +31,7 @@ body {
 #nav-tabContent {
     background-color: #838dc7;
     padding: 25px;
+    font-family: monospace;
 }
 
 
@@ -98,7 +99,7 @@ main{
 
 .work {
     border: 3px solid var(--pageThemeColor);
-    box-shadow: inset 0 0 0 300px var(--themeColor40percent);
+    /* box-shadow: inset 0 0 0 300px var(--themeColor40percent); */
 }
 
 .customBtn {
@@ -106,6 +107,9 @@ main{
 }
 .customBtn:hover {
     font-weight: bold;
+    font-size: 1.2em;
+    background-color: rgba(158, 165, 237, 0.1);
+    border-radius: 50px;
 }
 
 .work-label {
