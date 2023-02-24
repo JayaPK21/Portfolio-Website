@@ -38,6 +38,7 @@ $('#hero-banner').click(function() {
         $('#mainContainer').removeClass('d-none');
         $('#mainFooter').removeClass('d-none');
         $('#hero-banner').removeClass('d-flex');
+        $('#mainNavBar').removeClass('d-none');
 
     });
 });
@@ -58,6 +59,7 @@ $('#nav-home-tab').click(function() {
         $('#nav-work-tab').attr('aria-selected', 'true');
         $('#nav-work-tab').addClass('active');
         $('#nav-work').addClass('show active');
+        $('#mainNavBar').addClass('d-none');
 
     });
 });

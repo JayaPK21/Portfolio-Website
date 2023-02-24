@@ -179,6 +179,20 @@ pre {
     font-size: 1em;
 }
 
+/* Styling for Skills section */
+.list-group-item:nth-child(even) {
+    background-color: rgb(202 205 228);
+}
+
+#nav-contact {
+    font-family: cursive;
+}
+
+#emailText {
+    font-family: monospace;
+    user-select: all;
+}
+
 /* Styling the footer section */
 #mainFooter {
     background-color: var(--footerThemeColor);
