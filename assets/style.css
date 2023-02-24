@@ -81,6 +81,19 @@ body {
     font-size: xx-small;
 }
 
+#mainNavBar img{
+    padding: 5px;
+    border-radius: 30px;
+    width: 4em;
+    height: 5em;
+}
+
+#mainNavBar {
+    font-family: cursive;
+    font-style: oblique;
+    background: repeating-linear-gradient(30deg, #8c94ed, #969fff 50px);
+}
+
 main{
     margin-bottom: 100px;
 }
