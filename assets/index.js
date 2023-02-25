@@ -64,10 +64,40 @@ $('#nav-home-tab').click(function() {
     });
 });
 
-$('.work').hover(function() {
-    $(this).children('.cover').addClass('d-none');
-    $(this).children('.info').removeClass('d-none');
-}, function() {
-    $(this).children('.cover').removeClass('d-none');
-    $(this).children('.info').addClass('d-none');
+let stopHoverEvent = false;
+const boolString = "true";
+$('.info').hide();
+$('.work').hover(function(event) {
+    event.stopPropagation();
+    stopHoverEvent = $(this)[0].dataset.stopHoverEvent === boolString;
+    if(!stopHoverEvent) {
+        $(this).children('.cover').slideUp(1000);
+        $(this).children('.info').slideDown(1000);
+    }
+}, function(event) {
+    event.stopPropagation();
+    stopHoverEvent = $(this)[0].dataset.stopHoverEvent === boolString;
+    if(!stopHoverEvent) {
+        $(this).children('.info').slideUp(1000);
+        $(this).children('.cover').slideDown(1000);
+    }
+    
 });
+
+$('.work').click(function(event) {
+    event.stopPropagation();
+    
+    stopHoverEvent = $(this)[0].dataset.stopHoverEvent === boolString;
+
+    if(!stopHoverEvent){
+        stopHoverEvent = true;
+    }else {
+        stopHoverEvent = false;
+    }
+    
+    $(this)[0].dataset.stopHoverEvent = stopHoverEvent.toString();
+})
+
+function eventFunction(e) {
+    e.stopPropagation();
+}
