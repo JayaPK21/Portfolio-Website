@@ -142,6 +142,10 @@ main{
     /* box-shadow: inset 0 0 0 300px var(--themeColor40percent); */
 }
 
+.info {
+    cursor: pointer;
+}
+
 .customWebImage {
     width: 100%;
     height: 10em;
