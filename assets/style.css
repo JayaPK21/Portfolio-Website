@@ -100,22 +100,26 @@ main{
 
 /* Styling the Work Section */
 #coverWork1 {
-    background-image: url(images/pilot-application-website.png);
+    background-image: url(images/cv-generator-application.png);
 }
 
 #coverWork2 {
-    background-image: url(images/css-snippet-project.png);
+    background-image: url(images/pilot-application-website.png);
 }
 
 #coverWork3 {
-    background-image: url(images/weather-dashboard-website.png);
+    background-image: url(images/css-snippet-project.png);
 }
 
 #coverWork4 {
-    background-image: url(images/quiz-application-website.png);
+    background-image: url(images/weather-dashboard-website.png);
 }
 
 #coverWork5 {
+    background-image: url(images/quiz-application-website.png);
+}
+
+#coverWork6 {
     background-image: url(images/scheduler_application.png);
 }
 
